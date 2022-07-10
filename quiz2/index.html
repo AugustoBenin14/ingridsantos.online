@@ -61,6 +61,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </head>
   <body>
 
+FB.api(
+  '/1404471616717090/events',
+  'POST',
+  {"data":"[\n  {\n    \"event_name\": \"PageView\",\n    \"event_time\": 1657484913,\n    \"action_source\": \"website\",\n    \"event_source_url\": \"https://ingridsantos.online/quiz2/\",\n    \"user_data\": {\n      \"em\": [\n        \"7b17fb0bd173f625b58636fb796407c22b3d16fc78302d79f0fd30c2fc2fc068\"\n      ],\n      \"ph\": [\n        null\n      ],\n      \"client_ip_address\": null,\n      \"client_user_agent\": \"teste\"\n    }\n  }\n]","test_event_code":"TEST85481"},
+  function(response) {
+      // Insert your code here
+  }
+);
+
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXLSZQ6"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
